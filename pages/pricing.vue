@@ -15,14 +15,20 @@
         </p>
       </b-col>
     </b-row>
+      <PricingCard/>
   </b-container>
 </template>
 
 <script>
+
+import PricingCard from '../components/PricingCard.vue';
 export default {
+  components: { PricingCard },
   name: 'Pricing',
   layout: 'default',
-  computed: {},
+  computed: {
+    PricingCard,
+  },
 };
 </script>
 

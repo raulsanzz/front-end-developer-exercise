@@ -1,10 +1,12 @@
 <template>
-  <b-container>
+  <b-container class="b-container">
     <b-row class="my-5">
+      <b-col lg="8">
+        <h3>Company Inc.</h3>
+      </b-col>
       <b-col>
-        <h1>Company Inc.</h1>
         <NuxtLink to="/">Home</NuxtLink>
-        <NuxtLink to="pricing">Pricing</NuxtLink>
+        <NuxtLink to="pricing" class="ml-4">Pricing</NuxtLink>
       </b-col>
     </b-row>
     <b-row>
@@ -21,4 +23,6 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+
+</style>
